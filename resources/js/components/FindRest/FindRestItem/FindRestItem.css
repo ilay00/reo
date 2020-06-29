@@ -1,0 +1,41 @@
+.FindRestItem__wrap {
+    display: flex;
+    border: 1px solid #9B9999;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.FindRestItem__wrap_margin {
+    margin-bottom: 40px;
+}
+.FindRestItem__wrap_margin:last-child {
+    margin-bottom: 75px;
+}
+.FindRestItem__imageWrap {
+    width: 300px; 
+    height: 200px;
+}
+.FindRestItem__image {
+    width: 300px; 
+    height: 200px;
+}
+.FindRestItem__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%;
+    padding-left: 20px;
+}
+.info__title {
+    margin: 10px auto -5px 0px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.info__text {
+    text-align: left;
+    color: #A39E9E;
+    padding-bottom: 15px;
+}
+
+

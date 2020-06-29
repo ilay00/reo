@@ -1,0 +1,32 @@
+.containerOwner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.ownerItem {
+    max-width: 410px;
+    min-height: 140px;
+    border: 1px solid #9B9999;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ownerWrap {
+    display: grid;
+    grid-template-columns: minmax(150px, 35%) minmax(150px, 35%);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+.button-linkAlt {
+    background: #FFFFFF;
+    border: 1px solid #E7475E;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #E7475E;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+}

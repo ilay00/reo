@@ -1,0 +1,71 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 400px;
+    background-image: url("/images/hands.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head-name{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.head-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: flex-start;
+    display: flex;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding: 0 400px;
+    justify-content: center;
+}
+.main-block{
+    padding: 50px;
+    margin: 0;
+}
+.main-text-block{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: #A39E9E;
+    text-align: justify;
+}
+.img{
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+.main-block-img-with-capture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.main-img-capture{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    margin: 0;
+    align-items: center;
+}

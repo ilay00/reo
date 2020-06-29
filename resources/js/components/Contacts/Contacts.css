@@ -1,0 +1,91 @@
+
+.head-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 400px;
+    background-image: url("/images/contacts.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.head-name {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.head-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    align-items: flex-start;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.main-contacts {
+    padding: 150px;
+    margin: 0;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+.form-connect{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 93%;
+    margin: 50px auto 100px auto;
+    display: flex;
+    min-height: 400px;
+}
+.form-input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.form-name{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    display: block;
+    width: calc(100%/4);
+    height: 40px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.input-text{
+    width: 92%;
+    display: block;
+    border-radius: 15px;
+    min-height: 200px;
+
+}

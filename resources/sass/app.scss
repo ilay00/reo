@@ -1,0 +1,86 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+.container{
+    width: 1170px;
+}
+
+.welcome{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text{
+    height: 80px;
+}
+
+.user-name{
+    color: #E7475E;
+    text-decoration: dotted;
+    line-height: 80px;
+}
+
+.form-block{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form-block .auth-header{
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.label-email{
+    color: #9B9999;
+}
+
+.admin-inputs{
+    border: 1px solid #9B9999;
+    box-sizing: border-box;
+    border-radius: 50px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    outline: none;
+}
+
+.auth-button{
+    background: #E7475E;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    align-self: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-link, .remember-label{
+    color:#E7475E;
+    text-decoration: none;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.remember-block, .password-request{
+    margin: 10px auto;
+}

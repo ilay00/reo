@@ -1,0 +1,40 @@
+.RestDetailHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 327px;
+    background-color: #A39E9E;
+}
+
+.RestDetailHeader-title {
+    margin: 100px auto 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.RestDetailHeader-description {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Roboto;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.RestDetailHeader .button-link-btn {
+    margin: 50px auto;
+    border: none;
+}
+

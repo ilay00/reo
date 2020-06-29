@@ -1,0 +1,40 @@
+.Header{
+    display: flex;
+    background: rgba(0, 0, 0, 0);
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.Header .Menu{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0);
+    justify-content: space-around;
+}
+
+.menu-links{
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.menu-links:hover{
+    border-bottom: 3px solid #E7475E;
+}
+
+.selected{
+    border-bottom: 3px solid #E7475E;
+}
+
+.Menu .button-link{
+    font-size: 14px;
+}
+

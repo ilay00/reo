@@ -1,0 +1,51 @@
+.html, body, div, p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("/images/mainBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-page{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main .menu-links {
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    max-width: 50%;
+    font-size: 34px;
+    font-weight: normal;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 55px;
+}
+
+.button-link{
+    background: #E7475E;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}

@@ -1,0 +1,54 @@
+.RestDetail-container {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid;
+    margin: 25px auto;
+    border: 1px solid #9B9999;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.RestDetail-description {
+    padding-top: 40px;
+}
+
+.RestDetail-info div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RestDetail-info div span {
+    width: 50%;
+    margin: 10px 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.RestDetail-container_title  {
+    padding: 0 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.RestDetail-description-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A39E9E;
+}
+

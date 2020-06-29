@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    min-height: 100px;
+    width: 100%;
+    background-color: #2D2D2D;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.footer-title {
+    margin: 15px auto;
+    color: antiquewhite;
+}
